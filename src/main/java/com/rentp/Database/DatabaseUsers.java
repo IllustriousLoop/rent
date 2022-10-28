@@ -3,7 +3,7 @@ package com.rentp.Database;
 import java.util.ArrayList;
 
 /**
- * Database extends {@link Database}
+ * DatabaseUsers extends {@link Database}
  *
  * @author <a href="mailto:jhair@jhairparis.com">Jhair Paris</a>
  */
@@ -14,12 +14,12 @@ public class DatabaseUsers extends Database {
 
     /**
      * Method for add new User to database in memory
-     * <bold>Remember</bold> save DATABASE
+     * <strong>remember<strong/> save DATABASE
      *
      * @param name     the name of new User
      * @param lastName the last name of new User
      * @param email    the email of new User
-     * @return ArrayList<String>
+     * @return the new User saved
      */
     public ArrayList<String> addNewUser(String name, String lastName, String email, String password) {
         ArrayList<String> newUser = new ArrayList<>();
@@ -38,10 +38,12 @@ public class DatabaseUsers extends Database {
     }
 
     /**
-     * @param id
-     * @param name
-     * @param lastName
-     * @param email
+     * Modify element by id in the database
+     * 
+     * @param id       index of the element
+     * @param name     the value to be modified
+     * @param lastName the value to be modified
+     * @param email    the value to be modified
      */
     public boolean modifyById(int id, String name, String lastName, String email) {
         if (!(id >= this.database.size() || id < 0)) {
@@ -55,7 +57,9 @@ public class DatabaseUsers extends Database {
     }
 
     /**
-     * @param id of User in the database
+     * Delete element by id in the database
+     * 
+     * @param id index of the element
      */
     public boolean deleteById(int id) {
         if (!(id >= this.database.size() || id < 0)) {

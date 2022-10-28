@@ -3,7 +3,7 @@ package com.rentp.Database;
 import java.util.ArrayList;
 
 /**
- * Database
+ * DatabaseCars extends {@link Database}
  *
  * @author <a href="mailto:jhair@jhairparis.com">Jhair Paris</a>
  */

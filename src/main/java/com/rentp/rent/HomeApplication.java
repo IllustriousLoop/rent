@@ -22,12 +22,7 @@ public class HomeApplication extends Application {
     }
 }
 
-//DatabaseCars dbCars = new DatabaseCars();
 // dbUsers.addNewUser("Jhair", "Paris", "jhair@jhairparis.com","Hola");
-// dbCars.addNewCar("Renault", "Things", "Hello");
-// db.modifyById(2, "Hello", null, null);
 // dbUsers.deleteById(0);
-// System.out.println(dbUsers);
-//System.out.println(dbCars);
-// dbCars.save();
 // dbUsers.save();
+// System.out.println(dbUsers);
