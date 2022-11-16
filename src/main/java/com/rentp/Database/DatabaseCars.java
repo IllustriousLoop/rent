@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 public class DatabaseCars extends Database {
 	public DatabaseCars() {
-		super("DatabaseCars.csv", 4);
+		super("DatabaseCars.csv", 5);
 	}
 
 	public ArrayList<String> addNewCar(String name, String lastName, String email) {

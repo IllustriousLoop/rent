@@ -1,5 +1,5 @@
-ID,BRAND,WHEELS,HORSEPOWER,OWNER
-0,Renault,10,null
-1,Chevrolet,20,null
-2,Hyundai,15,null
-3,Lexus,22,null
+ID,BRAND,IMG,HORSEPOWER,OWNER
+0,Renault,renault.jpg,40,not
+1,Chevrolet,chevrolet.jpg,20,not
+2,Hyundai,hyundai.jpg,5,not
+3,MAZDA,mazda.jpg,90,not

@@ -13,7 +13,7 @@ public class Database implements IDatabase<ArrayList<String>> {
     protected ArrayList<ArrayList<String>> database = new ArrayList<>();
     protected ArrayList<String> headers = new ArrayList<>();
     protected int lastId;
-    static String home = "";
+    static String home = "/home/jhair/Programing/Java/";
     private static final String path = home + "rent/src/main/java/com/rentp/Database/";
     private final int columns;
     private final File file;
